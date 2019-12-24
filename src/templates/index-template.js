@@ -3,9 +3,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
-import Feed from '../components/Feed';
 import Page from '../components/Page';
-import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
 import type { PageContext, AllMarkdownRemark } from '../types';
 
@@ -15,31 +13,16 @@ type Props = {
 };
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
-  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
-  const {
-    currentPage,
-    hasNextPage,
-    hasPrevPage,
-    prevPagePath,
-    nextPagePath
-  } = pageContext;
-
-
-  const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
-    <Layout title={pageTitle} description={siteSubtitle}>
+    <Layout>
       <Sidebar isIndex />
       <Page>
-        <Feed edges={edges} />
-        <Pagination
-          prevPagePath={prevPagePath}
-          nextPagePath={nextPagePath}
-          hasPrevPage={hasPrevPage}
-          hasNextPage={hasNextPage}
-        />
+
+        <h1>hello.</h1>
+        <h2>I am a Full Stack Web Developer and focused team player with solid capacity for collaboration.</h2>
+        <p>Technologies I ♥️ to work with: JavaScript, Python, Node.js, Express, React, SQL, MongoDB, Graphql, Jest, Testing Library and many more! </p>
       </Page>
     </Layout>
   );
