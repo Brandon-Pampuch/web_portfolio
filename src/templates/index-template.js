@@ -23,6 +23,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
         <h1>hello.</h1>
         <h2>I am a Full Stack Web Developer and focused team player with solid capacity for collaboration.</h2>
         <p>Technologies I ♥️ to work with: JavaScript, Python, Node.js, Express, React, SQL, MongoDB, Graphql, Jest, Testing Library and many more! </p>
+        <a href="https://docs.google.com/document/d/1Eg7KJ5PLl8Xq0VUJCS5F1yPwfWI8yDYDRe0E830xE0g/edit">resume</a>
       </Page>
     </Layout>
   );
