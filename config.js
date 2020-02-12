@@ -28,7 +28,7 @@ module.exports = {
   author: {
     name: 'Brandon Pampuch',
     photo: '/catshot.jpg',
-    bio: 'Web Developer, Traveler, Volenteer, Pet Enthusiast, Great Sleeper',
+    bio: 'Web Developer, Traveler, Volunteer, Pet Enthusiast, Great Sleeper',
     contacts: {
       email: '',
       facebook: '#',
