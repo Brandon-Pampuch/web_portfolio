@@ -16,6 +16,7 @@ Mood Bloom was created to help patients using Cognitive Behavioral Therapy to ke
 ## Macrame
 Macrame is now released and being used by several non-profits in Greece to allow refugees to share their stories anonymously without affecting their asylum status.  It was first built with **React/Redux** and then migrated to **Gatsby** to allow for better content management.  The hope is to hand the project off to refugees themselves. It was designed as a PWA for refugees to have better access, but also is fully responsive.  
 
+
 ![](/media/project_one.jpg/)
 
 [Macrame](https://macrame.netlify.com/)  
