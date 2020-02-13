@@ -5,7 +5,7 @@ socialImage: ""
 ---
 
 ## Mood Bloom
-Mood Bloom was created to help patients using Cognitive Behavioral Therapy to keep track of their mood data for visits with their therapists. It was designed as a PWA to better suit the needs of users on the run. Mood Bloom was a two month build that included a **MongoDB/Graphql/Express/Passport** back-end and a **React/Apollo** front-end.  
+Mood Bloom was created to help patients using Cognitive Behavioral Therapy to keep track of their mood data for visits with their therapists. It was designed as a PWA to better suit the needs of users on the run. Mood Bloom was a two month build that included a **MongoDB/GraphQL/Express/Passport** back-end and a **React/Apollo** front-end.  
 
 [Mood Bloom](https://moodmuse-staging.netlify.com/signin)  
 [Mood Bloom back-end](https://github.com/Lambda-School-Labs/ema-therapy-be)  
